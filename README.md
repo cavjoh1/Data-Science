@@ -1,16 +1,10 @@
 # Data-Science
 
 1. Monte.java 
-  Birthday paradox :
-  Monte-Carlo simulations to approximate pN . Consider a given integer N and M . Step 1: Generate a
-  random vector P of size N such that each element of P is sampled from {1, 2, . . . , 365} uniformly at random
-  independently, and check if there exists at least two values are the same in P (we call the trial “good” if
-  there does); Step 2: Repeat Step 1 independently for M times and the output the value M ′/M as the
-  approximation of pN , where M ′ is the number of times we end up with a good trial.
-  
-  For each given N = 1, 2, 3, . . . , 50, please run the above Monte-Carlo simulations to output the approximate
-  value of pN with M reasonably large as long as you computer can afford to (e.g., you can set M = 1000).
+
+**Birthday Paradox Monte Carlo Simulation**: This simulation aims to approximate the probability \( p_N \) that at least two people in a group of \( N \) individuals share the same birthday. Assuming a year has 365 days, for each \( N = 1, 2, 3, \ldots, 50 \), we generate random birthday assignments for \( N \) individuals and repeat this process \( M \) times (where \( M = 1000 \) for computational efficiency). We count the proportion of trials in which at least two individuals share the same birthday and use this to estimate \( p_N \). The results are presented in a table form.
+
   
 [n_Pn_Table.csv](https://github.com/user-attachments/files/16885997/n_Pn_Table.csv)
 
-
+2. 
