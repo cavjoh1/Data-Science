@@ -7,5 +7,9 @@
   
 [n_Pn_Table.csv](https://github.com/user-attachments/files/16885997/n_Pn_Table.csv)
 
-2. Majority Item Problem
+2. MajorityItemProblem_1_1.java
 
+Majority Item Problem Algorithm (Original):
+The original algorithm checks if the current item is already in the set of "boxes" or an empty box is available to store it. The frequency of each item is updated accordingly.
+
+3. 
